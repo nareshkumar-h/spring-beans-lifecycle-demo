@@ -1,3 +1,3 @@
 # spring-beans-lifecycle-demo
 
-![](beanlife_cycle.jpg)
+![](lifecycle_bean1.png)
