@@ -14,6 +14,7 @@ public class Config {
 	//@Bean
 	public UserBean userBean() {
 		UserBean userBean = new UserBean();
+		userBean.setName("naresh");
 		return userBean;
 	}
 }

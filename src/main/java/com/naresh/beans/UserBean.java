@@ -13,6 +13,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserBean implements InitializingBean, DisposableBean,BeanNameAware,BeanFactoryAware,ApplicationContextAware {
 
+	private String name;
+	
+	public void setName(String name) {
+		System.out.println("UserBean->Set Properties");
+		this.name = name;
+	}
+
 	public UserBean() {
 		System.out.println("UserBean->Instantiate");
 	}
